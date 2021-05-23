@@ -1,0 +1,3 @@
+addFilme:
+    A pessoa vai dar o nome do filme....vou procurar esse filme na tabela 'dadosfilme' e retornar o id dele.
+    Ao pegar o id, vou colocar o id_filme + id_usuario + classificacao na tabela 'notafilmeusuario'

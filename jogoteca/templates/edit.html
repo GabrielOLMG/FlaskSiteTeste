@@ -1,0 +1,20 @@
+{% extends "template.html" %}
+{% block conteudo %}
+      <form action = "{{url_for('atualizar')}}" method = "POST"><!--actions vai mandar a requisição para a rota x|já o metodo vai definir como eu passo...get ou post-->
+        <fieldset>
+           <input type = "hidden" name="id" value="{{filme.id}}"></imput>
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" class="form-control" value = "{{filme.nome}}">
+          </div>
+
+          <div class="form-group">
+            <label for="classificacao">Classificação</label>
+            <input type="text" id="classificacao" name="classificacao" class="form-control" value = "{{filme.classificacao}}">
+          </div>
+          <a class="btn btn-primary" href="{{ url_for('index') }}" role="button">Voltar</a>
+          <button type="submit" class="btn btn-primary btn-salvar">Salvar</button>
+
+        </fieldset>
+      </form>
+{% endblock %}
