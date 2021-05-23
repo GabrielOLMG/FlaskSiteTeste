@@ -10,5 +10,5 @@ Coisas a serem melhoradas:
 Por ser meu primeiro programa com esta biblioteca, eu fiquei indeciso sobre oq fazer logo tem muitas variaveis relacionadas a jogos, que era minha primeira ideia. Por culpa disso,
 tenho que refatorar o codigo para que não existam variaveis com nomes estranhos.
 
-Ao entrar em http://127.0.0.1:5000/ pela primeira vez, ele da erro, ja que ele ja considera que tem um usuario qunado na verdade não tem, logo tenho que criar uma pagina inicial
+Ao entrar em http://127.0.0.1:5000/ pela primeira vez, ele da erro, ja que ele ja considera que tem um usuario quando na verdade não tem, logo tenho que criar uma pagina inicial
 ou entrar em http://127.0.0.1:5000/login primeiro.
